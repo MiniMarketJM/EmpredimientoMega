@@ -1,0 +1,344 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica Neue; 
+	text-decoration: none;
+}
+
+/*titulo*/
+
+div#titulo{
+	width:100%;
+	margin-top:20px;
+}
+
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:#000000;
+}
+
+p#subheader{
+	text-align: center;
+	color:#363333;
+	margin-top:20px;
+	font-size: 1.3em;
+}
+
+
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+
+/*-----------------barra lateral------------------------------------------------------------------------------------------------*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+	color:#bcbcbc;
+}
+
+body{
+
+}
+div#barra-lateral{
+	position:fixed;
+	width:65px;
+	height:100%;
+	background-color:#2f3030;
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+}
+
+div#barra-lateral:hover{
+	width:170px;
+}
+
+div#logo-menu{
+	width:40px;
+	height:40px;
+	margin:10px;
+	
+}
+
+div#contenedor-logos-primero{
+	margin-top:70px;
+}
+
+div.contenedor-logos{
+	margin-top:20px;
+	margin-left:10px;
+	width:130px;
+	height:40px;
+	
+}
+
+div.logo{
+	width:40px;
+	height:40px;
+
+	float: left;
+}
+
+p.title-menu{
+	margin-left:60px;
+	line-height: 40px;
+}
+
+/*body*/
+
+div#body{
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:170px;
+}
+
+div#texto{
+	width:50%;
+	min-height:300px;
+	float:left;
+}
+
+p#texto-contenedor-1{
+	font-size:25px;
+	margin:30px;
+	margin-top:50px;
+	color:#595959;
+}
+
+div#foto{
+	width:50%;
+	height:300px;
+	float:right;
+}
+
+img#foto-contenedor-1{
+	margin:auto;
+	margin-top:15px;
+	width:300px;
+	display:block;
+}
+img.icon1{
+	display: block;
+	
+margin-top: -3px;
+	
+	width:35px;
+	padding:3px;	
+}
+img.icon2{
+	display: block;
+	
+margin-top: -3px;
+	
+	width:30px;
+	padding:8px;	
+}
+img.icon3{
+	display: block;
+	
+margin-top: -3px;
+	
+	width:28px;
+	padding:5px;	
+}
+img.icon4{
+	display: block;
+	
+margin-top: -3px;
+	
+	width:30px;
+	padding:7px;	
+}
+
+img.icon5{
+	display: block;
+	
+margin-top: -3px;
+	
+	width:30px;
+	padding:7px;	
+}
+/*-----------cuadro------------------------------------------------------------------------------------------------------------------*/
+div.cont1{
+	margin:15px;
+	width:170px;
+	height:270px;
+	
+	overflow: hidden;
+	border-radius: 5px;
+    position: absolute;
+                bottom: 225px;
+                right: 500px;
+				
+}
+
+div.foto1{
+	width:170px;
+	height:170px;
+	
+	
+	
+}
+
+img.foto1{
+	
+	margin:13px auto;
+	margin-left: 13px;
+	width:145px;
+	height:145px;
+
+	
+}
+p.infor1{
+	margin:15px;
+	font-size: 1.1em;
+color:black;
+
+	
+}
+table{
+	background-color: antiquewhite;
+border: #000000 1px;
+}
+<div class="cont1">
+	<div class="foto1">
+		<img src=".jpg" class="foto1">	
+ <p class="infor1" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont2">
+	<div class="foto2">
+		<img src="BORRADOR PELIKAN.png" class="foto2">	
+ <p class="infor2" >Cerveza Club Verde 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont3">
+	<div class="foto3">
+		<img src=".png" class="foto3">	
+ <p class="infor3" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont4">
+	<div class="foto4">
+		<img src=".jpg" class="foto4">	
+ <p class="infor4" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont5">
+	<div class="foto5">
+		<img src=".png" class="foto5">	
+ <p class="infor5" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont6">
+	<div class="foto6">
+		<img src="ARCHIVADORES SUPERIOR.jpg" class="foto6">	
+ <p class="infor6" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont7">
+	<div class="foto7">
+		<img src="CARPETAS DE CARTON.png" class="foto7">	
+ <p class="infor7" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont8">
+	<div class="foto8">
+		<img src="CORRECTOR BIC.png" class="foto8">	
+ <p class="infor8" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont9">
+	<div class="foto9">
+		<img src="CRAYONES JUMBO CARIOCA 12U.png" class="foto9">	
+ <p class="infor9" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont10">
+	<div class="foto10">
+		<img src="CUADERNOS COSIDOS  ESTILO 100 HOJAS.png" class="foto10">	
+ <p class="infor10" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont11">
+	<div class="foto11">
+		<img src="CUADERNOS UNIVERSITARIOS NORMA 100 HOJAS.png" class="foto11">	
+ <p class="infor11" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+</div></div>
+<div class="cont12">
+	<div class="foto12">
+	<img src="ESCARCHAS.png" class="foto12">	
+	 <p class="infor12" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+	</div></div>
+	<div class="cont13">
+		<div class="foto13">
+		<img src="ESFEROS BIC PUNTA FINA.png" class="foto13">	
+		 <p class="infor13" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+		</div></div>
+		<div class="cont14">
+			<div class="foto14">
+			<img src="ESTILETE CUTTER KNIFE.png" class="foto14">	
+			 <p class="infor14" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+			</div></div>
+			<div class="cont15">
+				<div class="foto15">
+				<img src="FOMIX GOMA BESTER 10U.png" class="foto15">	
+				 <p class="infor15" >Aguardiente Parcero 750ml<br><br>$6,99</p>	
+				</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
