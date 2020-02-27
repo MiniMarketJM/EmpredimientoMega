@@ -442,7 +442,7 @@ img.logotipo{
 }
 
 /*-----------------------------------------version mobil---------------------------------------------------------------------------*/
-@media screen and (max-width:780px ) {
+@media screen and (max-width:500px ) {
 	
 	div#barra-lateral{
 		position:fixed;
