@@ -460,7 +460,7 @@ img.logotipo{
   }
  
   
-  @media screen and (max-width:685px ) {
+  @media screen and (max-width:500px ) {
 
 	.slider1 {
 	  margin-top: 0px;
