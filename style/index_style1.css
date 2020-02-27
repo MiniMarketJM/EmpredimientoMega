@@ -442,11 +442,11 @@ img.logotipo{
 }
 
 /*-----------------------------------------version mobil---------------------------------------------------------------------------*/
-@media screen and (max-width:100px ) {
+@media screen and (max-width:780px ) {
 	
 	div#barra-lateral{
 		position:fixed;
-		width:200px;
+		width:30px;
 		height:100%;
 	
 		overflow:hidden;
@@ -455,12 +455,12 @@ img.logotipo{
 	}
 	
 	div#barra-lateral:hover{
-		width:400px;
+		width:89px;
 	}
   }
  
   
-  @media screen and (max-width:100px ) {
+  @media screen and (max-width:685px ) {
 
 	.slider1 {
 	  margin-top: 0px;
