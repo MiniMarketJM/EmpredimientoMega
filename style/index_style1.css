@@ -446,7 +446,7 @@ img.logotipo{
 	
 	div#barra-lateral{
 		position:fixed;
-		width:30px;
+		width:200px;
 		height:100%;
 	
 		overflow:hidden;
