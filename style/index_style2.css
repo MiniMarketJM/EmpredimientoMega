@@ -525,6 +525,7 @@ img.logotipo{
 	}
 	
 	p#subheader{
+		margin-left: 25px;
 		text-align: center;
 		color:#363333;
 		margin-top:20px;
@@ -609,29 +610,33 @@ img.logotipo{
 		height:230px;
 		background-color: transparent;
 	}
+
+	}
 	div.piepag{
 		margin-left:0px ;
 	
-		width:1510px;
+		width:380px;
 		height:45px;
 	
 		overflow: hidden;
 		display: block;
 		position: absolute;
-		bottom: -400px;
+		bottom: -700px;
 		left:0px;
 	}
 	div.cuadro{
+		bottom: 720px;
 		width: 220px;
 		height: 80px;
+		z-index:1000 ;
 	
-		bottom: 625px;
-		left: 140px;
+		
+		left: 90px;
 	}
 	
 	img.logotipo{
 		display: block;
-		margin:10px;
+		margin-top:10px;
 		width: 200px;
 	}
 	  div#c1{
@@ -682,8 +687,8 @@ img.logotipo{
 		width:275px;
 		height: 580px;
 		background-color: #1f1f1f;
-		bottom: -120px;
-		left: 110px;
+		bottom: -80px;
+		left: 70px;
 	}
 	div#c20{
 		z-index: -200;
@@ -691,24 +696,24 @@ img.logotipo{
 		height: 200px;
 		background-color: #1f1f1f;
 		position: absolute;
-		bottom: -313px;
-		left: 110px;
+		bottom: -273px;
+		left: 70px;
 	}
 	div#c3{
 		width: 130px;
 		height: 150px;
 		background-color: #459228;
-		bottom: 270px;
-		left: 250px;
+		bottom: 310px;
+		left: 210px;
 		border-radius: 0px;
 	}
 	div#c4{
 		width: 130px;
 		height: 150px;
 		background-color: #764b92;
-		bottom: 270px;
+		bottom: 310px;
 		border-radius: 0px;
-		left: 115px;
+		left: 75px;
 	}
 	div#c5{
 
@@ -716,16 +721,16 @@ img.logotipo{
 		width: 130px;
 		height: 150px;
 		background-color: #d44532;
-		bottom:79px;
-		left: 115px;
+		bottom:119px;
+		left: 75px;
 	}
 	div#c6{
 		width: 130px;
 		height: 150px;
 		position: absolute;
 		background-color: #eb801c;
-		bottom: 79px;
-		left: 250px;
+		bottom: 119px;
+		left: 210px;
 	}
 	div#c7{
 		z-index: -1000;
@@ -735,8 +740,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #993fb8;
-		bottom: -113px;
-		left: 115px;
+		bottom: -73px;
+		left: 75px;
 	}
 	div#c8{
 		z-index: -1000;
@@ -746,8 +751,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #4f5abb;
-		bottom: -113px;
-		left: 250px;
+		bottom: -73px;
+		left: 210px;
 	}
 	div#c9{
 		z-index: 1000;
@@ -757,23 +762,23 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #2ea083;
-		bottom: -307px;
-		left: 115px;
+		bottom: -267px;
+		left: 75px;
 	}
 	div#c10{
 		width: 130px;
 		height: 30px;
 		background-color: #459228;
-		bottom: 425px;
-		left: 250px;
+		bottom: 465px;
+		left: 210px;
 	}
 	div#c11{
 		width: 130px;
 		height: 30px;
 		background-color: #764b92;
-		bottom: 425px;
+		bottom: 465px;
 		border-radius:0px ;
-		left: 115px;
+		left: 75px;
 	}
 	div#c12{
 		width: 130px;
@@ -781,8 +786,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #d44532;
-		bottom: 235px;
-		left:115px;
+		bottom: 275px;
+		left:75px;
 	}
 	div#c13{
 		width: 130px;
@@ -790,8 +795,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #eb801c;
-		bottom: 235px;
-		left: 250px;
+		bottom: 275px;
+		left: 210px;
 	}
 	div#c14{
 		width: 130px;
@@ -799,8 +804,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #993fb8;
-		bottom: 44px;
-		left: 115px;
+		bottom: 84px;
+		left: 75px;
 	}
 	div#c15{
 		z-index: -1000;
@@ -810,8 +815,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #4f5abb;
-		bottom: 44px;
-		left: 250px;
+		bottom: 84px;
+		left: 210px;
 	}
 	div#c16{
 		z-index: 1000;
@@ -821,8 +826,8 @@ img.logotipo{
 		-webkit-transition: height .4s;
 		position: absolute;
 		background-color: #2ea083;
-		bottom: -150px;
-		left: 115px;
+		bottom: -110px;
+		left: 75px;
 	}
 	p#inc1{
 		margin-top: 10px;
@@ -852,6 +857,48 @@ img.logotipo{
   }
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
