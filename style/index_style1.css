@@ -350,7 +350,7 @@ margin-top: 0;
 div.piepag{
 	margin-left:65px ;
 
-	width:1510px;
+	width:100%;
 	height:80px;
 	background-color: #690000;
 	overflow: hidden;
@@ -441,16 +441,13 @@ img.logotipo{
 	width: 600px;
 }
 
-/*-----------------------------------------version mobil---------------------------------------------------------------------------*/
+/*-----------------------------------------version mobil----------------------------------------------------------------------------*/
 @media screen and (max-width:780px ) {
 	
 	div#barra-lateral{
 		position:fixed;
 		width:30px;
 		height:100%;
-	
-		overflow:hidden;
-		-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
 		z-index: 100;
 	}
 	
@@ -462,6 +459,16 @@ img.logotipo{
   
   @media screen and (max-width:685px ) {
 
+	div#barra-lateral{
+		position:fixed;
+		width:30px;
+		height:100%;
+		z-index: 100;
+	}
+	
+	div#barra-lateral:hover{
+		width:89px;
+	}
 	.slider1 {
 	  margin-top: 0px;
 	  height: 110px;
@@ -527,15 +534,17 @@ img.logotipo{
 		font-size: 0.7em;
 	}
 	p#header{
+		margin-left: 25px;
 		text-align: center;
 		font-size: 2.0em;
 		color:#000000;
 	}
 	
 	p#subheader{
+		margin-left: 25px;
 		text-align: center;
 		color:#363333;
-		margin-top:20px;
+		margin-top:10px;
 		font-size: 0.9em;
 	}
 	div.contenedor{
@@ -548,42 +557,42 @@ img.logotipo{
 	div#uno{
 		background-color: rgb(0, 126, 31);
 		position: absolute;
-		margin-left: 110px;
+		margin-left: 70px;
 		margin-bottom:100px ;
 	}
 	
 	div#dos{
 		background-color: rgb(9, 108, 155);
 		position: absolute;
-		margin-left: 250px;
+		margin-left: 210px;
 		margin-bottom:100px ;
 	}
 	
 	div#tres{
 		background-color: rgb(238, 92, 8);
 		position: absolute;
-		margin-left: 110px;
+		margin-left: 70px;
 		margin-top:170px ;
 	}
 	
 	div#cuatro{
 		background-color: rgb(216, 25, 25);
 		position: absolute;
-		margin-left: 250px;
+		margin-left: 210px;
 		margin-top:170px ;
 	}
 	
 	div#cinco{
 		background-color: rgb(143, 53, 165);
 		position: absolute;
-		margin-left: 110px;
+		margin-left: 70px;
 		margin-top:340px ;
 	}
 	
 	div#seis{
 		background-color: rgb(146, 26, 62);
 		position: absolute;
-		margin-left: 250px;
+		margin-left: 210px;
 		margin-top:340px ;
 	}
 	
@@ -620,91 +629,95 @@ img.logotipo{
 	div.piepag{
 		margin-left:0px ;
 	
-		width:1510px;
+		width:100%;
 		height:45px;
-	
-		overflow: hidden;
-		display: block;
+		
 		position: absolute;
-		bottom: -1500px;
+		bottom: -1100px;
 		left:0px;
 	}
 	div.cuadro{
+		bottom: 720px;
 		width: 220px;
 		height: 80px;
+		z-index:1000 ;
 	
-		bottom: 625px;
-		left: 140px;
+		
+		left: 90px;
 	}
-	
+	#Cuerpo {
+		margin: 0 auto;
+		max-width: 1200px;
+		background-color: transparent;
+	  }
 	img.logotipo{
 		display: block;
-		margin:10px;
+		margin-top:10px;
 		width: 200px;
 	}
 	.slider2 {
 		margin-top: 0px;
-		height: 200px;
-		width: 370px;
-	   left: 70px;
-	   bottom: -360px;
+		height: 180px;
+		width: 310px;
+	   left: 50px;
+	   bottom: -180px;
 	  }
 	  .slider2 ul {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 	  .slider2 li {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 	  .slider2 img {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 
 	  .slider3 {
 		margin-top: 0px;
-		height: 200px;
-		width: 370px;
-	   left: 70px;
-	   bottom: -900px;
+		height: 180px;
+		width: 310px;
+	   left: 50px;
+	   bottom: -600px;
 	  }
 	  .slider3 ul {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 	  .slider3 li {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 	  .slider3 img {
-		height: 200px;
-		width: 370px;
+		height: 180px;
+		width: 310px;
 	  }
 	  div#c1{
-		width: 370px;
-		height: 250px;
-		bottom: -655px;
-		left: 70px;
+		width: 310px;
+		height: 180px;
+		bottom: -390px;
+		left: 50px;
 	}
 	div#c2{
-		width: 370px;
-		height: 250px;
-		bottom: -1200px;
-		left: 70px;
+		width: 310px;
+		height: 180px;
+		bottom: -800px;
+		left: 50px;
 	}
 	div#c3{
-		width: 330px;
-		height: 210px;
-		bottom: -635px;
-		left: 90px;
+		width: 290px;
+		height: 160px;
+		bottom: -380px;
+		left: 60px;
 		border-radius:20px ;
 	}
 	div#c4{
-		width: 330px;
-		height: 210px;
-		bottom: -1180px;
-		left: 90px;
+		width: 290px;
+		height: 160px;
+		bottom: -790px;
+		left: 60px;
 		border-radius:20px ;
 	}
 	p#inc1{
@@ -721,8 +734,8 @@ img.logotipo{
 		font-size: 1.2em;
 	
 		position: absolute;
-		bottom: -105px;
-		left: 145px;
+		bottom: 25px;
+		left: 100px;
 		
 	}
   }
